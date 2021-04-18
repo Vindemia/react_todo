@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import TaskBoard from './app/taskBoard';
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+	return (
+		<div className="App">
+			<TaskBoard />
+		</div>
+	);
 }
 
 export default App;
